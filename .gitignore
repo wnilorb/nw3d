@@ -5,6 +5,7 @@ nicwill-backup-estoque*.json
 # Owner-only administration stays on the owner's PC, never in the public repo.
 /admin.html
 /js/admin.js
+/abrir-admin.bat
 
 # Operating system and editor artifacts.
 .DS_Store
