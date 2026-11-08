@@ -1,9 +1,85 @@
 [
-  {"id":"vaso-organico","name":"Vaso Orgânico Pétala","category":"Decoração","price":68,"description":"Vaso escultural com textura delicada. Um detalhe que transforma qualquer cantinho.","badge":"Mais querido","image":"assets/print-vase.svg","tags":["vaso","casa","presente"],"active":true,"availability":{"status":"check","leadTimeMinDays":3,"leadTimeMaxDays":5}},
-  {"id":"luminaria-arco","name":"Luminária Arco Mini","category":"Decoração","price":125,"description":"Luz aconchegante e formas suaves para deixar a mesa ainda mais especial.","badge":"Design autoral","image":"assets/print-lamp.svg","tags":["luz","mesa","luminária"],"active":true,"availability":{"status":"check","leadTimeMinDays":3,"leadTimeMaxDays":5}},
-  {"id":"dragao-flex","name":"Dragão Flexível","category":"Colecionáveis","price":45,"description":"Peça articulada, divertida de manusear e cheia de personalidade.","badge":"Articulado","image":"assets/print-dragon.svg","tags":["dragão","articulado","coleção"],"active":true,"availability":{"status":"check","leadTimeMinDays":3,"leadTimeMaxDays":5}},
-  {"id":"porta-trecos","name":"Organizador Modular","category":"Organização","price":38,"description":"Pequeno, prático e pronto para organizar sua mesa sem ocupar espaço.","badge":"Funcional","image":"assets/print-organizer.svg","tags":["organização","mesa","escritório"],"active":true,"availability":{"status":"check","leadTimeMinDays":3,"leadTimeMaxDays":5}},
-  {"id":"chaveiro-nome","name":"Chaveiro com Nome","category":"Personalizados","price":18,"description":"Uma lembrança personalizada com nome, cor e acabamento à sua escolha.","badge":"Personalizável","image":"assets/print-keychain.svg","tags":["chaveiro","nome","presente"],"active":true,"availability":{"status":"check","leadTimeMinDays":3,"leadTimeMaxDays":5}},
-  {"id":"mini-planter","name":"Mini Cachepô Ondulado","category":"Decoração","price":32,"description":"Um lar charmoso para suculentas e pequenas plantas. Vai sem a planta.","badge":"Feito sob pedido","image":"assets/print-planter.svg","tags":["planta","vaso","cachepô"],"active":true,"availability":{"status":"check","leadTimeMinDays":3,"leadTimeMaxDays":5}},
-  {"id":"projeto-sob-medida","name":"Projeto Sob Medida","category":"Personalizados","price":0,"description":"Conte sua ideia e receba uma proposta personalizada para impressão 3D.","badge":"Vamos criar?","image":"assets/print-custom.svg","tags":["encomenda","projeto","customizado"],"active":true,"availability":{"status":"check","leadTimeMinDays":3,"leadTimeMaxDays":5}}
+  {
+    "id": "produto-mw78aj6i",
+    "name": "Boneco de Neve Articulado",
+    "category": "Natalino",
+    "price": 15,
+    "description": "Boneco de Neve Colorido Vermelho, Branco e preto\narticulado sentado",
+    "badge": "Articulado colorido de Natal",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [
+      "natal",
+      "boneco de neve"
+    ],
+    "image": "assets/products/produto-mw78aj6i-1sso3kg-a047a75f04587df19dfb998b.jpg",
+    "images": [
+      "assets/products/produto-mw78aj6i-1sso3kg-a047a75f04587df19dfb998b.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw76iq1q",
+    "name": "Dragão de Fogo Articulado 12cm",
+    "category": "Colecionáveis",
+    "price": 18,
+    "description": "Dragão articulado 12cm\nVermelho e preto\nMecanismo que movimenta as asas",
+    "badge": "Articulado Colorido",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [
+      "dragão",
+      "articulado",
+      "coleção"
+    ],
+    "image": "assets/products/produto-mw76iq1q-5bkmww-7084063714d963506998d4e2.jpg",
+    "images": [
+      "assets/products/produto-mw76iq1q-5bkmww-7084063714d963506998d4e2.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "dragao-flex",
+    "name": "Dragão de Fogo Articulado 17cm",
+    "category": "Colecionáveis",
+    "price": 25,
+    "description": "Peça articulada, divertida de manusear e cheia de personalidade.\n17cm\nMovimenta as asas com engrenagem",
+    "badge": "Articulado colorido",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [
+      "dragão",
+      "articulado",
+      "coleção"
+    ],
+    "image": "assets/products/dragao-flex-13a9k8l-7084063714d963506998d4e2.jpg",
+    "images": [
+      "assets/products/dragao-flex-13a9k8l-7084063714d963506998d4e2.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  }
 ]
