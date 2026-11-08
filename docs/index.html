@@ -1,0 +1,100 @@
+<!doctype html>
+<!-- Public catalog: GitHub Pages serves docs/; the local admin stays outside this folder. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050914">
+  <meta name="description" content="NicWill Lab 3D — peças, presentes e ideias extraordinárias feitas em impressão 3D.">
+  <title>NicWill Lab 3D — ideias em outra dimensão</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/inventory.css">
+  <link rel="stylesheet" href="css/brand.css">
+</head>
+<body>
+  <div class="announcement"><span>NICWILL LAB 3D <i aria-hidden="true">✳</i></span><span>IMPRESSÃO 3D · DESIGN SEM LIMITES · CADA CAMADA CONTA</span></div>
+  <header class="site-header">
+    <a class="brand brand-image" href="#inicio" aria-label="NicWill Lab 3D — página inicial"><img class="brand-logo" src="assets/logo.jpg" alt="NicWill Lab 3D" width="580" height="326"></a>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegação principal"><a href="#catalogo">Catálogo</a><a href="#sob-medida">Projetos personalizados</a><a href="#sobre">O ateliê</a></nav>
+    <button class="cart-trigger" id="open-cart" aria-label="Abrir sacola"><span class="bag-icon">▱</span><span>Sacola</span><span class="cart-count" id="cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> NICWILL LAB 3D <span class="hero-edition">· DESIGN + IMPRESSÃO</span></p>
+        <h1>Ideias em 3D.<br><em>Impacto na vida real.</em></h1>
+        <p class="hero-intro">Do imaginário às suas mãos. Descubra peças, presentes e criações personalizadas feitas camada por camada.</p>
+        <a class="button button-dark" href="#catalogo">Explore o universo <span aria-hidden="true">↘</span></a>
+        <div class="hero-note"><span class="note-stars">✳</span><span>IMPRESSO COM PRECISÃO<br><b>CRIADO PARA SAIR DO COMUM</b></span></div>
+      </div>
+      <div class="hero-art" aria-label="Peça decorativa impressa em 3D">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="hero-label">LAB / 001<br>OBJETO EM ÓRBITA <span>↗</span></div>
+        <img src="assets/print-vase.svg" alt="Vaso escultural em impressão 3D" class="hero-vase">
+        <span class="hero-caption">MATÉRIA: IMAGINAÇÃO &nbsp;·&nbsp; PROCESSO: 3D</span>
+      </div>
+    </section>
+
+    <section class="trust-row" aria-label="Diferenciais"><span><b>01</b> DESIGN QUE SURPREENDE</span><span><b>02</b> FEITO NO NOSSO LAB</span><span><b>03</b> SUA IDEIA TAMBÉM VIRA 3D</span></section>
+
+    <section class="catalog-section section-wrap" id="catalogo">
+      <div class="section-heading">
+        <div><p class="eyebrow">PEÇAS DO LAB / CATÁLOGO 001</p><h2>Encontre algo <em>fora da curva.</em></h2></div>
+        <p>Peças prontas, presentes criativos e projetos sob medida. Escolha seus favoritos e monte seu pedido.</p>
+      </div>
+      <div class="catalog-tools">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Buscar produtos..." autocomplete="off"><kbd>/</kbd></label>
+        <div class="category-list" id="category-list" aria-label="Filtrar por categoria"></div>
+      </div>
+      <div class="results-meta"><span id="results-count">Carregando peças...</span><label>Ordenar <select id="sort-select"><option value="featured">Em destaque</option><option value="price-asc">Menor preço</option><option value="price-desc">Maior preço</option><option value="name">Nome A–Z</option></select></label></div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden><span>⌕</span><h3>Nenhuma peça encontrada</h3><p>Tente buscar por outro nome ou escolha uma categoria diferente.</p><button class="text-button" id="clear-filters">Limpar filtros</button></div>
+    </section>
+
+    <section class="custom-banner" id="sob-medida"><div class="custom-symbol">✳</div><div><p class="eyebrow">SUA IMAGINAÇÃO É O LIMITE</p><h2>Sonhou. <em>A gente imprime.</em></h2><p>Uma peça exclusiva, outro tamanho, sua marca ou uma ideia que ainda não existe? Vamos criar juntos.</p></div><a class="button button-light" id="custom-whatsapp" href="#">Criar meu projeto <span>↗</span></a></section>
+
+    <section class="about-section section-wrap" id="sobre"><div class="about-mark">N<span>W</span></div><div><p class="eyebrow">BEM-VINDO AO NICWILL LAB</p><h2>Matéria, forma<br>e um pouco de <em>futuro.</em></h2><p>Somos um laboratório de ideias em impressão 3D. Exploramos formas, texturas e possibilidades para criar objetos que dão vontade de olhar de novo — e levar para casa.</p></div><div class="about-stats"><div><strong>3D</strong><span>imaginação materializada</span></div><div><strong>∞</strong><span>ideias para criar</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand brand-image" href="#inicio" aria-label="NicWill Lab 3D — voltar ao início"><img class="brand-logo" src="assets/logo.jpg" alt="NicWill Lab 3D" width="580" height="326" loading="lazy"></a><span>IMPRESSÃO 3D · DESIGN INDEPENDENTE · © <span id="current-year"></span></span><a href="#catalogo">VOLTAR AO CATÁLOGO ↑</a></footer>
+
+  <div class="overlay" id="cart-overlay" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Sua sacola" aria-hidden="true">
+    <div class="drawer-header"><div><p class="eyebrow">SEU PEDIDO</p><h2>Sua sacola <span id="drawer-count">(0)</span></h2></div><button class="icon-button" id="close-cart" aria-label="Fechar sacola">×</button></div>
+    <div class="cart-lines" id="cart-lines"></div>
+    <div class="cart-empty" id="cart-empty"><span>▱</span><h3>Sua sacola está vazia</h3><p>Encontre suas peças favoritas para começar.</p><button class="text-button" id="continue-shopping">Ver catálogo</button></div>
+    <div class="drawer-footer" id="drawer-footer" hidden><div class="cart-total"><span>Subtotal estimado</span><strong id="cart-total">R$ 0,00</strong></div><p>O valor final e o prazo serão confirmados pelo WhatsApp.</p><button class="button button-dark checkout-button" id="open-checkout">Finalizar pedido <span>↗</span></button></div>
+  </aside>
+
+  <dialog class="checkout-dialog" id="checkout-dialog">
+    <form id="checkout-form">
+      <div class="dialog-heading"><div><p class="eyebrow">SÓ MAIS UM PASSO</p><h2>Vamos conversar?</h2><p>Confira suas peças e preencha os dados para enviar o pedido pelo WhatsApp.</p></div><button class="icon-button" type="button" id="close-checkout" aria-label="Fechar">×</button></div>
+      <div class="checkout-lines" id="checkout-lines"></div>
+      <label>Seu nome<input name="name" required maxlength="80" autocomplete="name" placeholder="Como podemos chamar você?"></label>
+      <div class="form-pair"><label>Seu WhatsApp<input name="phone" type="tel" inputmode="tel" pattern="[+0-9() .-]{8,24}" title="Use de 8 a 15 dígitos; pode incluir +, espaços, parênteses e hífens." required maxlength="24" autocomplete="tel" placeholder="(00) 00000-0000"></label><label>Cidade / região<input name="city" maxlength="80" autocomplete="address-level2" placeholder="Ex.: Manaus, AM"></label></div>
+      <label>Observações <span class="optional">opcional</span><textarea name="notes" rows="3" maxlength="500" placeholder="Cor, personalização ou alguma dúvida..."></textarea></label>
+      <div class="checkout-summary"><span id="checkout-items-count">0 produtos</span><strong id="checkout-total">R$ 0,00</strong></div>
+      <p class="privacy-note">O pedido será enviado diretamente ao nosso WhatsApp. A compra e o pagamento são combinados com você.</p>
+      <button class="button button-dark checkout-button" type="submit">Enviar pedido pelo WhatsApp <span>↗</span></button>
+    </form>
+  </dialog>
+
+  <dialog class="product-dialog" id="product-dialog" aria-label="Detalhes do produto">
+    <button class="icon-button product-dialog-close" id="close-product" aria-label="Fechar detalhes">×</button>
+    <div class="product-dialog-layout">
+      <div class="detail-gallery"><div class="detail-image-wrap"><button class="gallery-arrow gallery-prev" id="gallery-prev" aria-label="Imagem anterior">‹</button><img id="detail-image" src="assets/print-vase.svg" alt="" onerror="this.onerror=null;this.src='assets/print-vase.svg'"><button class="gallery-arrow gallery-next" id="gallery-next" aria-label="Próxima imagem">›</button></div><div class="detail-thumbnails" id="detail-thumbnails"></div></div>
+      <div class="detail-copy"><p class="eyebrow" id="detail-category">PRODUTO</p><h2 id="detail-name"></h2><strong class="detail-price" id="detail-price"></strong><p class="product-availability" id="detail-availability" data-availability="check" aria-live="polite"></p><p id="detail-description"></p><dl class="detail-specs" id="detail-specs" hidden></dl><p class="detail-care" id="detail-care" hidden></p><div class="detail-video-embed" id="detail-video-container" hidden><iframe id="detail-video-frame" title="Vídeo do produto" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><p class="detail-note">Personalização, prazo e disponibilidade são confirmados diretamente pelo WhatsApp.</p><button class="button button-dark" id="detail-add">Adicionar à sacola <span>＋</span></button></div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/config.js"></script><script src="js/inventory.js"></script><script src="js/app.js"></script>
+</body>
+</html>

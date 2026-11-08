@@ -1,0 +1,15 @@
+# Local inventory/consignment backups should stay outside the repository.
+nicwill-backup-estoque*.json
+/products.json
+
+# Owner-only administration stays on the owner's PC, never in the public repo.
+/admin.html
+/js/admin.js
+
+# Operating system and editor artifacts.
+.DS_Store
+Thumbs.db
+*.swp
+
+# Node dependencies are not used by the static site.
+node_modules/
