@@ -1,5 +1,149 @@
 [
   {
+    "id": "produto-mw8b8vaz",
+    "name": "Mini Jesus Sentado",
+    "category": "Natalino",
+    "price": 12,
+    "description": "Mini Jesus Sentado para decoração",
+    "badge": "",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8b8vaz-1xsovbe-c9a8d4df74e603fe2250cabb.jpg",
+    "images": [
+      "assets/products/produto-mw8b8vaz-1xsovbe-c9a8d4df74e603fe2250cabb.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8b5v4m",
+    "name": "Cortadores Temáticos de Natal",
+    "category": "Natalino",
+    "price": 6,
+    "description": "Cortadores temáticos de Natal, forminhas de natal com formas natalinas.",
+    "badge": "Natalino",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8b5v4m-2jq6qf-c3e32254e454139e6ad6eaf4.jpg",
+    "images": [
+      "assets/products/produto-mw8b5v4m-2jq6qf-c3e32254e454139e6ad6eaf4.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8amxeq",
+    "name": "Feliz Natal Decorativo",
+    "category": "Natalino",
+    "price": 25,
+    "description": "Feliz Natal decorativo",
+    "badge": "",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8amxeq-1kxe415-1882f9a9e9daabee3b08d0bc.jpg",
+    "images": [
+      "assets/products/produto-mw8amxeq-1kxe415-1882f9a9e9daabee3b08d0bc.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8akkxt",
+    "name": "Diorama de Natal com 06 itens",
+    "category": "Natalino",
+    "price": 65,
+    "description": "Diorama de Natal com 20cm\n06 itens\nPapai Noel, boneco de neve, arvore de natal, cabana, poste e a bandeja",
+    "badge": "",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8akkxt-17x7kh4-b7d6743793e25ed1b758c0ba.jpg",
+    "images": [
+      "assets/products/produto-mw8akkxt-17x7kh4-b7d6743793e25ed1b758c0ba.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw89s98q",
+    "name": "Boneco de Neve do Chapéu Preto com Vermelho",
+    "category": "Natalino",
+    "price": 15,
+    "description": "Lindo e fofo Boneco de Neve com chapéu preto e lista vermelho.\nÉ Articulado, mexi a cabeça em todas direções e mexi também o cachecol",
+    "badge": "",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw89s98q-iuzdl9-e932deff1520ce349b15376d.jpg",
+    "images": [
+      "assets/products/produto-mw89s98q-iuzdl9-e932deff1520ce349b15376d.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw89lonc",
+    "name": "Mini Arvore de Natal Enfeitada Articulada",
+    "category": "Natalino",
+    "price": 15,
+    "description": "Linda arvore de natal articulada para deixar em locais de decoração",
+    "badge": "",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw89lonc-e1uhrw-87628240a5772b3ee77b08be.jpg",
+    "images": [
+      "assets/products/produto-mw89lonc-e1uhrw-87628240a5772b3ee77b08be.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
     "id": "produto-mw78aj6i",
     "name": "Boneco de Neve Articulado",
     "category": "Natalino",
