@@ -1,6 +1,6 @@
 # NicWill Lab 3D — catálogo online
 
-Catálogo responsivo de produtos de impressão 3D com busca, categorias, sacola e pedidos pelo WhatsApp. O painel administrativo local fica fora do site publicado.
+Catálogo responsivo de produtos de impressão 3D com busca, categorias, sacola e pedidos pelo WhatsApp. Este repositório contém o site público em `docs/`; o painel administrativo permanece no computador do proprietário e não faz parte do repositório público.
 
 ## Hospedagem indicada
 
@@ -8,7 +8,7 @@ Para este projeto, GitHub Pages é uma boa opção de hospedagem estática quand
 
 ### Identidade visual
 
-O arquivo-mestre está em `I/Logo.png`; a versão otimizada do cabeçalho é `docs/assets/logo.jpg` (~67 KB) e o ícone é `docs/assets/favicon.png` (~3 KB). A identidade usa fundo azul-marinho quase preto, azul/ciano elétrico, laranja vivo e branco metálico, combinando com o brilho 3D do logo.
+O cabeçalho usa `docs/assets/logo.jpg` (~67 KB) e o ícone `docs/assets/favicon.png` (~3 KB). A identidade usa fundo azul-marinho quase preto, azul/ciano elétrico, laranja vivo e branco metálico, combinando com o brilho 3D do logo.
 
 ## Começar agora
 
@@ -80,17 +80,14 @@ Limpar os dados do navegador pode apagar o livro local; mantenha cópias de back
 ## Arquivos principais
 
 - `docs/index.html` — catálogo público (fonte do GitHub Pages).
-- `admin.html` — painel local, fora da pasta publicada.
+- Painel administrativo — mantido localmente pelo proprietário; não está neste repositório.
 - `docs/data/products.json` — catálogo publicado (fonte de verdade do site).
 - `docs/data/categories.json` — lista controlada de categorias usada pelo admin.
 - `docs/assets/products/` — fotos dos produtos publicadas pelo painel local.
 - `docs/assets/logo.jpg` / `docs/assets/favicon.png` — logo otimizada e ícone leve do site.
 - `docs/js/inventory.js` e `docs/css/inventory.css` — regras de disponibilidade e apresentação.
-- `js/admin.js` — código do painel local; não é copiado para `docs/`.
-- `tests/` — verificações automatizadas com o Node.js (`node --test tests/*.test.js`).
 - `.gitignore` — ignora arquivos locais de backup e artefatos do sistema.
 - `docs/js/config.js` — nome e WhatsApp do ateliê.
 - `docs/css/` e `docs/assets/` — identidade visual e ilustrações públicas.
-- `exemplos/` — documentos de referência do ObraFlow preservados como fonte histórica; as diretrizes ativas adaptadas estão na raiz.
 
 O catálogo vem com produtos e imagens ilustrativas de exemplo. Substitua nomes, valores, fotos, descrições e categorias antes de divulgar.
