@@ -1,5 +1,110 @@
 [
   {
+    "id": "produto-mw8g610q",
+    "name": "Largato Axolot Articulado",
+    "category": "Articulado Monocromático",
+    "price": 15,
+    "description": "Axolot\nobs: cada unidade",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "8",
+    "colors": [
+      "Diversas cores unicas"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8g610q-5kfkfe-d5f02b3d42d67caf5ea3eba9.jpg",
+    "images": [
+      "assets/products/produto-mw8g610q-5kfkfe-d5f02b3d42d67caf5ea3eba9.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8g0qde",
+    "name": "Triceratops Articulado Colorido",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "Lindo Triceratops Articulado Azul e branco",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "11",
+    "colors": [
+      "Branco",
+      "Azul e preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8g0qde-12qn1w-58ec962dfc7d1f593179b201.jpg",
+    "images": [
+      "assets/products/produto-mw8g0qde-12qn1w-58ec962dfc7d1f593179b201.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8fl7id",
+    "name": "Triceratops skeleton articulado",
+    "category": "Articulado Monocromático",
+    "price": 15,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "12",
+    "colors": [
+      "Branco"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8fl7id-hjzvsv-3a5925c2d7b1ec1c731eff2a.jpg",
+    "images": [
+      "assets/products/produto-mw8fl7id-hjzvsv-3a5925c2d7b1ec1c731eff2a.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8fc2if",
+    "name": "Sapo Skeleton Articulado",
+    "category": "Articulado Monocromático",
+    "price": 15,
+    "description": "Sapo divertido Skeleton totalmente articulado",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "10",
+    "colors": [
+      "Branco"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8fc2if-13mdxct-61104867ee4fdf2334a505a2.jpg",
+    "images": [
+      "assets/products/produto-mw8fc2if-13mdxct-61104867ee4fdf2334a505a2.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
     "id": "produto-mw8eoctg",
     "name": "Trex Skeleton Articulado",
     "category": "Articulado Monocromático",
@@ -49,7 +154,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -77,7 +182,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -103,7 +208,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -333,7 +438,7 @@
   },
   {
     "id": "produto-mw78aj6i",
-    "name": "Boneco de Neve Articulado",
+    "name": "Boneco de Neve Articulado Gorro e Cachecol Vermelho",
     "category": "Natalino",
     "price": 15,
     "description": "Boneco de Neve Colorido Vermelho, Branco e preto\narticulado sentado",
@@ -353,7 +458,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -381,7 +486,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -409,7 +514,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -529,7 +634,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -553,7 +658,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
