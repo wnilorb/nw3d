@@ -6,6 +6,9 @@ nicwill-backup-estoque*.json
 /admin.html
 /js/admin.js
 /abrir-admin.bat
+/local_admin_server.py
+/nicwill-admin.sqlite3*
+__pycache__/
 
 # Operating system and editor artifacts.
 .DS_Store
