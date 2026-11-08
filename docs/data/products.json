@@ -1,5 +1,256 @@
 [
   {
+    "id": "produto-mw8cbncc",
+    "name": "Tigela Papai Noel",
+    "category": "Natalino",
+    "price": 25,
+    "description": "Tigela de papai Noel para decorar sua ceia",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "18",
+    "colors": [
+      "Vermelho",
+      "Branco",
+      "preto",
+      "amarelo"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8cbncc-5vdhtq-b4209450e320b6a526c7ddd3.jpg",
+    "images": [
+      "assets/products/produto-mw8cbncc-5vdhtq-b4209450e320b6a526c7ddd3.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8c9dmy",
+    "name": "Rena de Natal tricô sem cachecol",
+    "category": "Natalino",
+    "price": 15,
+    "description": "Linda rena de natal estilo tricô",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "6",
+    "colors": [
+      "Bege",
+      "preto",
+      "marrom"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8c9dmy-11q5643-52b5ba58d999f9c738c59d63.jpg",
+    "images": [
+      "assets/products/produto-mw8c9dmy-11q5643-52b5ba58d999f9c738c59d63.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8c5h9o",
+    "name": "Rena natalina Tricô",
+    "category": "Natalino",
+    "price": 15,
+    "description": "Lina Rena de natal trabalhado em estilo tricô",
+    "badge": "",
+    "material": "",
+    "dimensions": "6",
+    "colors": [
+      "Bege",
+      "branco",
+      "vermelho e preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8c5h9o-amf5x5-6788353a1835598cb5456564.jpg",
+    "images": [
+      "assets/products/produto-mw8c5h9o-amf5x5-6788353a1835598cb5456564.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8c2xq9",
+    "name": "Presépio Natalino",
+    "category": "Natalino",
+    "price": 18,
+    "description": "Presépio Natalino",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "12",
+    "colors": [
+      "Bege"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8c2xq9-lvd168-86320a07ccad676c0ae779ac.jpg",
+    "images": [
+      "assets/products/produto-mw8c2xq9-lvd168-86320a07ccad676c0ae779ac.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8c0vem",
+    "name": "Pinguim Natalino",
+    "category": "Natalino",
+    "price": 15,
+    "description": "Pinguim estilo natalino.",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "5",
+    "colors": [
+      "branco",
+      "preto",
+      "vermelho e amarelo"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8c0vem-h015hc-45fc5d3244505bb0b5603330.jpg",
+    "images": [
+      "assets/products/produto-mw8c0vem-h015hc-45fc5d3244505bb0b5603330.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8bxf4l",
+    "name": "Papai Noel Maromba",
+    "category": "Natalino",
+    "price": 85,
+    "description": "Papai Noel Marombado",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "26",
+    "colors": [
+      "Vermelho",
+      "Branco",
+      "preto",
+      "bege"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8bxf4l-1v9jsmt-c7787eeec71468d8b8502905.jpg",
+    "images": [
+      "assets/products/produto-mw8bxf4l-1v9jsmt-c7787eeec71468d8b8502905.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw78aj6i",
+    "name": "Boneco de Neve Articulado",
+    "category": "Natalino",
+    "price": 15,
+    "description": "Boneco de Neve Colorido Vermelho, Branco e preto\narticulado sentado",
+    "badge": "Articulado colorido de Natal",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [
+      "natal",
+      "boneco de neve"
+    ],
+    "image": "assets/products/produto-mw78aj6i-1sso3kg-a047a75f04587df19dfb998b.jpg",
+    "images": [
+      "assets/products/produto-mw78aj6i-1sso3kg-a047a75f04587df19dfb998b.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw76iq1q",
+    "name": "Dragão de Fogo Articulado 12cm",
+    "category": "Colecionáveis",
+    "price": 18,
+    "description": "Dragão articulado 12cm\nVermelho e preto\nMecanismo que movimenta as asas",
+    "badge": "Articulado Colorido",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [
+      "dragão",
+      "articulado",
+      "coleção"
+    ],
+    "image": "assets/products/produto-mw76iq1q-5bkmww-7084063714d963506998d4e2.jpg",
+    "images": [
+      "assets/products/produto-mw76iq1q-5bkmww-7084063714d963506998d4e2.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "dragao-flex",
+    "name": "Dragão de Fogo Articulado 17cm",
+    "category": "Colecionáveis",
+    "price": 25,
+    "description": "Peça articulada, divertida de manusear e cheia de personalidade.\n17cm\nMovimenta as asas com engrenagem",
+    "badge": "Articulado colorido",
+    "material": "",
+    "dimensions": "",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [
+      "dragão",
+      "articulado",
+      "coleção"
+    ],
+    "image": "assets/products/dragao-flex-13a9k8l-7084063714d963506998d4e2.jpg",
+    "images": [
+      "assets/products/dragao-flex-13a9k8l-7084063714d963506998d4e2.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
     "id": "produto-mw8b8vaz",
     "name": "Mini Jesus Sentado",
     "category": "Natalino",
@@ -134,89 +385,6 @@
     "image": "assets/products/produto-mw89lonc-e1uhrw-87628240a5772b3ee77b08be.jpg",
     "images": [
       "assets/products/produto-mw89lonc-e1uhrw-87628240a5772b3ee77b08be.jpg"
-    ],
-    "videoUrl": "",
-    "active": true,
-    "availability": {
-      "status": "check",
-      "leadTimeMinDays": 3,
-      "leadTimeMaxDays": 5
-    }
-  },
-  {
-    "id": "produto-mw78aj6i",
-    "name": "Boneco de Neve Articulado",
-    "category": "Natalino",
-    "price": 15,
-    "description": "Boneco de Neve Colorido Vermelho, Branco e preto\narticulado sentado",
-    "badge": "Articulado colorido de Natal",
-    "material": "",
-    "dimensions": "",
-    "colors": [],
-    "careInstructions": "",
-    "tags": [
-      "natal",
-      "boneco de neve"
-    ],
-    "image": "assets/products/produto-mw78aj6i-1sso3kg-a047a75f04587df19dfb998b.jpg",
-    "images": [
-      "assets/products/produto-mw78aj6i-1sso3kg-a047a75f04587df19dfb998b.jpg"
-    ],
-    "videoUrl": "",
-    "active": true,
-    "availability": {
-      "status": "check",
-      "leadTimeMinDays": 3,
-      "leadTimeMaxDays": 5
-    }
-  },
-  {
-    "id": "produto-mw76iq1q",
-    "name": "Dragão de Fogo Articulado 12cm",
-    "category": "Colecionáveis",
-    "price": 18,
-    "description": "Dragão articulado 12cm\nVermelho e preto\nMecanismo que movimenta as asas",
-    "badge": "Articulado Colorido",
-    "material": "",
-    "dimensions": "",
-    "colors": [],
-    "careInstructions": "",
-    "tags": [
-      "dragão",
-      "articulado",
-      "coleção"
-    ],
-    "image": "assets/products/produto-mw76iq1q-5bkmww-7084063714d963506998d4e2.jpg",
-    "images": [
-      "assets/products/produto-mw76iq1q-5bkmww-7084063714d963506998d4e2.jpg"
-    ],
-    "videoUrl": "",
-    "active": true,
-    "availability": {
-      "status": "check",
-      "leadTimeMinDays": 3,
-      "leadTimeMaxDays": 5
-    }
-  },
-  {
-    "id": "dragao-flex",
-    "name": "Dragão de Fogo Articulado 17cm",
-    "category": "Colecionáveis",
-    "price": 25,
-    "description": "Peça articulada, divertida de manusear e cheia de personalidade.\n17cm\nMovimenta as asas com engrenagem",
-    "badge": "Articulado colorido",
-    "material": "",
-    "dimensions": "",
-    "colors": [],
-    "careInstructions": "",
-    "tags": [
-      "dragão",
-      "articulado",
-      "coleção"
-    ],
-    "image": "assets/products/dragao-flex-13a9k8l-7084063714d963506998d4e2.jpg",
-    "images": [
-      "assets/products/dragao-flex-13a9k8l-7084063714d963506998d4e2.jpg"
     ],
     "videoUrl": "",
     "active": true,
