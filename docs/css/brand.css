@@ -50,14 +50,14 @@ body { background: var(--paper); color: var(--ink); }
 .hero-note { color: #9da3af; letter-spacing: .06em; font-size: 9px; }
 .hero-note b { color: #eef0e9; }
 .note-stars { color: var(--orange); border-color: #404652; }
-.hero-art { height: 430px; border: 1px solid #00baff55; border-radius: 4px 145px 4px 4px; background: radial-gradient(ellipse at 32% 45%,#007dc844 0,#0b2036 34%,#0a101b 72%); box-shadow: inset 0 0 75px #008ed21a,0 25px 90px #0007; }
-.hero-art::before { content: ""; position: absolute; width: 245px; height: 245px; left: 28%; border-radius: 50%; background: #00aaff3d; filter: blur(70px); }
-.hero-art::after { content: ""; position: absolute; width: 125px; height: 125px; top: 69px; right: 80px; border: 1px solid #ff78188a; border-radius: 50%; box-shadow: 0 0 35px #ff78183d,inset 0 0 25px #ff78181c; }
-.hero-orbit { border-color: #00baff75; }
-.hero-vase { filter: drop-shadow(0 18px 30px #ff78184a) drop-shadow(0 0 20px #00baff29); }
-.hero-label { color: var(--orange); }
-.hero-label span { color: var(--cyan); }
-.hero-caption { color: #adb3be; letter-spacing: .08em; font-size: 8px; }
+.hero-art { height: 470px; border: 1px solid #00baff75; border-radius: 18px 100px 18px 18px; background: radial-gradient(ellipse at 50% 48%,#102944 0,#091626 62%,#070d17 100%); box-shadow: inset 0 0 75px #008ed21a,0 25px 90px #0007; }
+.hero-art::before { content: ""; position: absolute; width: 260px; height: 260px; left: 28%; top: 16%; border-radius: 50%; background: #00aaff3d; filter: blur(70px); }
+.hero-art::after { content: ""; position: absolute; width: 180px; height: 180px; bottom: -82px; right: -38px; border: 1px solid #ff78188a; border-radius: 50%; box-shadow: 0 0 35px #ff78183d,inset 0 0 25px #ff78181c; }
+.hero-vase { position: relative; z-index: 1; width: 100%; height: 100%; object-fit: contain; border-radius: inherit; filter: drop-shadow(0 18px 30px #ff78182e) drop-shadow(0 0 20px #00baff20); }
+.hero-feature-pill { position: absolute; z-index: 2; top: 20px; right: 20px; padding: 8px 11px; border: 1px solid #00baff9c; border-radius: 999px; color: #eaf8ff; background: #06101cdb; font-size: 9px; font-weight: 800; letter-spacing: .12em; box-shadow: 0 0 22px #00baff22; }
+.hero-feature-caption { position: absolute; z-index: 2; left: 20px; bottom: 22px; padding: 9px 12px; border-left: 2px solid var(--orange); color: #fff; background: #06101cdb; font-size: 10px; font-weight: 800; letter-spacing: .1em; }
+.hero-feature-link { position: absolute; z-index: 3; right: 20px; bottom: 18px; display: inline-flex; align-items: center; gap: 8px; padding: 10px 13px; border: 1px solid #b7eeff80; border-radius: 999px; color: #04111e; background: linear-gradient(105deg,#00baff,#ff7818); font-size: 9px; font-weight: 900; letter-spacing: .06em; text-decoration: none; box-shadow: 0 8px 24px #0006; transition: transform .18s,box-shadow .18s; }
+.hero-feature-link:hover { transform: translateY(-2px); box-shadow: 0 12px 30px #00baff4a; }
 .trust-row { color: #b8bdc6; border-color: var(--line); }
 .trust-row b { color: var(--orange); }
 
@@ -186,7 +186,7 @@ body { background: var(--paper); color: var(--ink); }
 
 @media (max-width: 950px) {
   .hero { padding-left: 32px; padding-right: 32px; }
-  .hero-art { height: 350px; }
+  .hero-art { height: 390px; }
   .custom-banner { margin-left: 24px; margin-right: 24px; }
 }
 
@@ -196,9 +196,10 @@ body { background: var(--paper); color: var(--ink); }
   .hero::before { left: 0; opacity: .25; }
   .hero::after { top: 24%; right: -10%; font-size: 270px; }
   .hero h1 { font-size: 43px; }
-  .hero-art { height: 300px; border-top-right-radius: 105px; }
-  .hero-art::after { right: 40px; top: 44px; width: 95px; height: 95px; }
-  .hero-caption { font-size: 7px; }
+  .hero-art { height: min(92vw, 390px); border-top-right-radius: 80px; }
+  .hero-feature-pill { top: 12px; right: 12px; padding: 7px 9px; font-size: 8px; }
+  .hero-feature-caption { left: 12px; bottom: 13px; padding: 8px 9px; font-size: 8px; }
+  .hero-feature-link { right: 12px; bottom: 10px; padding: 9px 10px; font-size: 8px; }
   .trust-row { background: #0c0f15; }
   .custom-banner { background: linear-gradient(130deg,#0b1b2d,#19150f); }
   .admin-title h1 { font-size: 36px; }
