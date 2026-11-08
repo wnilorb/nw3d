@@ -1,5 +1,88 @@
 [
   {
+    "id": "produto-mw8eoctg",
+    "name": "Trex Skeleton Articulado",
+    "category": "Articulado Monocromático",
+    "price": 15,
+    "description": "Trex divertido skeleton articulado",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "8",
+    "colors": [
+      "branco"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8eoctg-16t2iid-d9722c82f1783ff0d95ba57b.jpg",
+    "images": [
+      "assets/products/produto-mw8eoctg-16t2iid-d9722c82f1783ff0d95ba57b.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8eiri3",
+    "name": "Tartaruga articulada colorida",
+    "category": "Articulado Colorido",
+    "price": 15,
+    "description": "Tartaruga articulada colorida",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "7",
+    "colors": [
+      "Verde",
+      "Bege",
+      "preto",
+      "branco"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8eiri3-12fbw8h-4a54fd4854c63754a31d2ab5.jpg",
+    "images": [
+      "assets/products/produto-mw8eiri3-12fbw8h-4a54fd4854c63754a31d2ab5.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8eghcn",
+    "name": "Trex Articulado Colorido",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "Trex totalmente articulado. colorido\nMontável",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "9",
+    "colors": [
+      "Verde",
+      "Preto",
+      "Branco"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8eghcn-1rozxa4-e9dfe0e992d7fddb49be0198.jpg",
+    "images": [
+      "assets/products/produto-mw8eghcn-1rozxa4-e9dfe0e992d7fddb49be0198.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
     "id": "produto-mw8dy9iu",
     "name": "Ursinho Polar de Natal",
     "category": "Natalino",
