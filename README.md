@@ -13,7 +13,7 @@ O cabeçalho usa `docs/assets/logo.jpg` (~67 KB) e o ícone `docs/assets/favicon
 ## Começar agora
 
 1. Edite `docs/js/config.js` e confirme o nome e o WhatsApp do ateliê. O telefone deve estar no formato internacional, somente números — por exemplo, `55` + DDD + número.
-2. Para testar no computador, inicie um servidor local na raiz do projeto. Se tiver Python instalado, execute `python -m http.server 8000`; abra o catálogo em `http://127.0.0.1:8000/docs/` e o painel local em `http://127.0.0.1:8000/admin.html`. O arquivo HTML aberto diretamente não consegue carregar o JSON por `fetch`.
+2. No computador do proprietário, dê dois cliques em `abrir-admin.bat`: o atalho inicia o servidor local com SQLite e abre o painel em `http://127.0.0.1:8000/admin.html`. O catálogo local fica em `http://127.0.0.1:8000/docs/`. Não abra o HTML do admin diretamente como arquivo; ele precisa do servidor local para buscar JSON e gravar no banco.
 3. Revise conteúdo, estoque, aparência e fluxos no navegador antes de publicar.
 4. Quando a versão estiver aprovada, envie os arquivos públicos ao repositório GitHub correto, **sem `admin.html` nem `js/admin.js`**, e em **Settings → Pages** selecione **Deploy from a branch**, branch `main` e pasta `/docs`.
 
@@ -33,7 +33,7 @@ O painel também permite cadastrar categorias no botão ao lado do seletor; nome
 
 Ao movimentar consignações, escolha o parceiro no menu. Use **＋ Parceiro** para cadastrar um nome uma única vez; é possível renomear o cadastro e remover parceiros sem movimentos. Parceiros com histórico não podem ser removidos, para preservar os registros.
 
-Ao abrir, o painel carrega `docs/data/products.json`, restaura automaticamente a cópia de produtos salva neste navegador e carrega o livro local de estoque/parceiros. Edições ficam nesta cópia e na prévia local até você publicar; após publicar ou baixar o JSON, o painel mantém a cópia local para reabrir sem perder o estado.
+Ao abrir, o painel busca o catálogo publicado no GitHub e restaura o rascunho local. Produtos, categorias, estoque, parceiros e preferências do painel também são gravados no arquivo SQLite `nicwill-admin.sqlite3`, na raiz da pasta do projeto. O banco é local, fica fora do repositório e restaura os dados mesmo que o armazenamento do navegador seja limpo. Mantenha uma cópia de segurança do arquivo e use também **Backup do estoque**.
 
 ### Estoque, produção e vendas
 
@@ -50,7 +50,7 @@ O cliente vê apenas **Pronta entrega**, **Sob encomenda** com a estimativa de p
 
 Depois de entrar em operação, registre cada movimento no painel e publique o catálogo para atualizar o status que os visitantes veem. A prévia local atualiza no mesmo navegador imediatamente; clientes em outros dispositivos só recebem o novo status após publicar.
 
-O histórico de estoque, nomes de parceiros, vendas e repasses fica no armazenamento local deste navegador e dispositivo; não é enviado ao catálogo público. O JSON publicado contém somente o estado de disponibilidade e o prazo estimado de produção. Use **Backup do estoque** regularmente e guarde o arquivo fora do repositório público. Para restaurá-lo em outro navegador/endereço, abra primeiro o catálogo correspondente e use **Restaurar estoque** no painel. Não há sincronização automática entre dispositivos.
+O histórico de estoque, nomes de parceiros, vendas e repasses fica no SQLite local e não é enviado ao catálogo público. O JSON publicado contém somente o estado de disponibilidade e o prazo estimado de produção. Guarde cópias do `nicwill-admin.sqlite3` fora do repositório público; para uma cópia consistente, feche o painel antes de copiar o arquivo. Use também **Backup do estoque** regularmente. Não há sincronização automática desse histórico entre computadores.
 
 ### Publicar direto no GitHub
 
