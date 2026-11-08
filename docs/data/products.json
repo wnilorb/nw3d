@@ -1,5 +1,86 @@
 [
   {
+    "id": "produto-mw8dy9iu",
+    "name": "Ursinho Polar de Natal",
+    "category": "Natalino",
+    "price": 15,
+    "description": "urso polar de natalino para decoração",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "8",
+    "colors": [
+      "Branco e Vermelho"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8dy9iu-9twkt1-5920ea75f1a87b0daac9374c.jpg",
+    "images": [
+      "assets/products/produto-mw8dy9iu-9twkt1-5920ea75f1a87b0daac9374c.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8dq0rr",
+    "name": "Ornamentos de Natal",
+    "category": "Natalino",
+    "price": 8,
+    "description": "Ornamentos de Natal.\nObs: Por unidade",
+    "badge": "",
+    "material": "",
+    "dimensions": "8",
+    "colors": [
+      "Diversas cores"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8dq0rr-dpsti0-2fad1b90d3094a9baec02d5a.jpg",
+    "images": [
+      "assets/products/produto-mw8dq0rr-dpsti0-2fad1b90d3094a9baec02d5a.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8dm55w",
+    "name": "Treno do papai noel",
+    "category": "Natalino",
+    "price": 25,
+    "description": "Lindo treno do papei Noel para decoração",
+    "badge": "",
+    "material": "",
+    "dimensions": "12",
+    "colors": [
+      "Vermelho",
+      "branco",
+      "preto",
+      "amarelo"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8dm55w-1616lej-d1011937b4c7f009615720ff.jpg",
+    "images": [
+      "assets/products/produto-mw8dm55w-1616lej-d1011937b4c7f009615720ff.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
     "id": "produto-mw8cbncc",
     "name": "Tigela Papai Noel",
     "category": "Natalino",
