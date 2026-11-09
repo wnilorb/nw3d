@@ -20,7 +20,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -46,7 +46,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -210,7 +210,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -237,7 +237,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
@@ -322,9 +322,9 @@
   },
   {
     "id": "produto-mw8eiri3",
-    "name": "Tartaruga articulada colorida",
+    "name": "Tartaruga Articulada Colorida",
     "category": "Articulado Colorido",
-    "price": 15,
+    "price": 12,
     "description": "Tartaruga articulada colorida",
     "badge": "",
     "material": "PLA",
