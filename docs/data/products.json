@@ -1,5 +1,36 @@
 [
   {
+    "id": "produto-mw8kkngi",
+    "name": "Goku Criança",
+    "category": "Colecionáveis",
+    "price": 38,
+    "description": "Goku Criança para fãs",
+    "badge": "",
+    "material": "",
+    "dimensions": "11 x 7",
+    "colors": [
+      "Vermelho",
+      "azul",
+      "bege",
+      "preto"
+    ],
+    "careInstructions": "",
+    "tags": [
+      "dragon ball"
+    ],
+    "image": "assets/products/produto-mw8kkngi-rvevvp-0f9f5f6a5c3b647e0c9e5bd9.jpg",
+    "images": [
+      "assets/products/produto-mw8kkngi-rvevvp-0f9f5f6a5c3b647e0c9e5bd9.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
     "id": "produto-mw8jtyoy",
     "name": "Suporte de mesa para controle remoto 03 abas",
     "category": "Organização",
