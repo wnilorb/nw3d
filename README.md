@@ -33,7 +33,7 @@ O painel também permite cadastrar categorias no botão ao lado do seletor; nome
 
 Ao movimentar consignações, escolha o parceiro no menu. Use **＋ Parceiro** para cadastrar um nome uma única vez; é possível renomear o cadastro e remover parceiros sem movimentos. Parceiros com histórico não podem ser removidos, para preservar os registros.
 
-Ao abrir, o painel busca o catálogo publicado no GitHub e restaura o rascunho local. Produtos, categorias, estoque, parceiros e preferências do painel também são gravados no arquivo SQLite `nicwill-admin.sqlite3`, na raiz da pasta do projeto. O banco é local, fica fora do repositório e restaura os dados mesmo que o armazenamento do navegador seja limpo. Mantenha uma cópia de segurança do arquivo e use também **Backup do estoque**.
+Ao abrir, o painel busca o catálogo publicado no GitHub e restaura o rascunho do SQLite local. Se houver um rascunho antigo, mantém as edições locais e acrescenta produtos publicados que ainda faltarem nele. Produtos, categorias, estoque, parceiros e preferências do painel também são gravados em `nicwill-admin.sqlite3`, na raiz da pasta do projeto. O banco é local, fica fora do repositório e restaura os dados mesmo que o armazenamento do navegador seja limpo. Mantenha uma cópia de segurança do arquivo e use também **Backup do estoque**.
 
 ### Estoque, produção e vendas
 
@@ -50,7 +50,7 @@ O cliente vê apenas **Pronta entrega**, **Sob encomenda** com a estimativa de p
 
 Depois de entrar em operação, registre cada movimento no painel e publique o catálogo para atualizar o status que os visitantes veem. A prévia local atualiza no mesmo navegador imediatamente; clientes em outros dispositivos só recebem o novo status após publicar.
 
-O histórico de estoque, nomes de parceiros, vendas e repasses fica no SQLite local e não é enviado ao catálogo público. O JSON publicado contém somente o estado de disponibilidade e o prazo estimado de produção. Guarde cópias do `nicwill-admin.sqlite3` fora do repositório público; para uma cópia consistente, feche o painel antes de copiar o arquivo. Use também **Backup do estoque** regularmente. Não há sincronização automática desse histórico entre computadores.
+O histórico de estoque, nomes de parceiros, vendas e repasses fica no SQLite local e não é enviado ao catálogo público. O JSON publicado contém somente o estado de disponibilidade e o prazo estimado de produção. O arquivo SQLite não é criptografado; proteja o acesso ao computador e guarde cópias fora do repositório público. Para uma cópia consistente, feche o painel antes de copiar o arquivo. Use também **Backup do estoque** regularmente. Não há sincronização simultânea desse histórico entre computadores.
 
 ### Publicar direto no GitHub
 
