@@ -1,5 +1,34 @@
 [
   {
+    "id": "produto-mw8liehq",
+    "name": "Papai Noel",
+    "category": "Natalino",
+    "price": 15,
+    "description": "Papai Noel Solo",
+    "badge": "",
+    "material": "",
+    "dimensions": "5 x 3",
+    "colors": [
+      "Vermelho",
+      "branco",
+      "preto",
+      "amarelo"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8liehq-hawps0-3e9b54ce443d757b053a98d2.jpg",
+    "images": [
+      "assets/products/produto-mw8liehq-hawps0-3e9b54ce443d757b053a98d2.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
     "id": "produto-mw8kkngi",
     "name": "Goku Criança",
     "category": "Colecionáveis",
