@@ -1,5 +1,195 @@
 [
   {
+    "id": "produto-mw8jtyoy",
+    "name": "Suporte de mesa para controle remoto 03 abas",
+    "category": "Organização",
+    "price": 35,
+    "description": "organize seus controles com esse suporte ergométrico para 03 controles",
+    "badge": "",
+    "material": "",
+    "dimensions": "7 x 11",
+    "colors": [
+      "preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8jtyoy-mh3uyg-8e7018e203009670ed179e81.jpg",
+    "images": [
+      "assets/products/produto-mw8jtyoy-mh3uyg-8e7018e203009670ed179e81.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8jo20a",
+    "name": "suporte de mesa para controle com duas abas",
+    "category": "Organização",
+    "price": 31,
+    "description": "organize seus controles remotos com essa suporte de mesa para 2 controles",
+    "badge": "",
+    "material": "",
+    "dimensions": "9 x 8",
+    "colors": [
+      "preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8jo20a-7ptxxx-05e032845be04d0572413ba8.jpg",
+    "images": [
+      "assets/products/produto-mw8jo20a-7ptxxx-05e032845be04d0572413ba8.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8je27c",
+    "name": "Point Finger Telescopico",
+    "category": "Escoler",
+    "price": 29,
+    "description": "Point Finger para dar aula ou para apresentações e até mesmo se divertir",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "50",
+    "colors": [
+      "preto e vermelho"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8je27c-u90ywy-30de807dc95968395540eed4.jpg",
+    "images": [
+      "assets/products/produto-mw8je27c-u90ywy-30de807dc95968395540eed4.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8j3rsb",
+    "name": "Lixeira Automotiva",
+    "category": "Organização",
+    "price": 39.9,
+    "description": "Lixeira automotiva para prender na porta do carro",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "16",
+    "colors": [
+      "Azul e branca ou preta"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8j3rsb-1ai4yf-2fd89e5ab85ec45e8f9a14d3.jpg",
+    "images": [
+      "assets/products/produto-mw8j3rsb-1ai4yf-2fd89e5ab85ec45e8f9a14d3.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8itqc5",
+    "name": "Dino Bebe",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "Dino Bebe Articulado divertido e fofo",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "10",
+    "colors": [
+      "Verde",
+      "Azul",
+      "preto",
+      "branco"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8itqc5-1cnkbxx-6d1b877383e5440ecbe62cf2.jpg",
+    "images": [
+      "assets/products/produto-mw8itqc5-1cnkbxx-6d1b877383e5440ecbe62cf2.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8inyk5",
+    "name": "Gorila articulado Malvadão",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "10",
+    "colors": [
+      "Vermelho",
+      "Bege",
+      "Preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8inyk5-zgadzr-3dd13213eb64203bdf976101.jpg",
+    "images": [
+      "assets/products/produto-mw8inyk5-zgadzr-3dd13213eb64203bdf976101.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8hml1p",
+    "name": "Boneco de Neve Duende Ajudante",
+    "category": "Articulado Colorido",
+    "price": 15,
+    "description": "Boneco de Neve Duende ajudante de papai noel.\ndivertivo para decoração",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "8",
+    "colors": [
+      "Branco",
+      "preto",
+      "verde",
+      "vermelho."
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8hml1p-3ay295-1041ad5e8f109742cbaef8dd.jpg",
+    "images": [
+      "assets/products/produto-mw8hml1p-3ay295-1041ad5e8f109742cbaef8dd.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "in-stock",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
     "id": "produto-mw8g610q",
     "name": "Largato Axolot Articulado",
     "category": "Articulado Monocromático",
