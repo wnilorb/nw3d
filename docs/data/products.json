@@ -1,188 +1,21 @@
 [
   {
-    "id": "produto-mw8liehq",
-    "name": "Papai Noel",
-    "category": "Natalino",
-    "price": 15,
-    "description": "Papai Noel Solo",
-    "badge": "",
-    "material": "",
-    "dimensions": "5 x 3",
-    "colors": [
-      "Vermelho",
-      "branco",
-      "preto",
-      "amarelo"
-    ],
-    "careInstructions": "",
-    "tags": [],
-    "image": "assets/products/produto-mw8liehq-hawps0-3e9b54ce443d757b053a98d2.jpg",
-    "images": [
-      "assets/products/produto-mw8liehq-hawps0-3e9b54ce443d757b053a98d2.jpg"
-    ],
-    "videoUrl": "",
-    "active": true,
-    "availability": {
-      "status": "check",
-      "leadTimeMinDays": 3,
-      "leadTimeMaxDays": 5
-    }
-  },
-  {
-    "id": "produto-mw8kkngi",
-    "name": "Goku Criança",
-    "category": "Colecionáveis",
-    "price": 38,
-    "description": "Goku Criança para fãs",
-    "badge": "",
-    "material": "",
-    "dimensions": "11 x 7",
-    "colors": [
-      "Vermelho",
-      "azul",
-      "bege",
-      "preto"
-    ],
-    "careInstructions": "",
-    "tags": [
-      "dragon ball"
-    ],
-    "image": "assets/products/produto-mw8kkngi-rvevvp-0f9f5f6a5c3b647e0c9e5bd9.jpg",
-    "images": [
-      "assets/products/produto-mw8kkngi-rvevvp-0f9f5f6a5c3b647e0c9e5bd9.jpg"
-    ],
-    "videoUrl": "",
-    "active": true,
-    "availability": {
-      "status": "check",
-      "leadTimeMinDays": 3,
-      "leadTimeMaxDays": 5
-    }
-  },
-  {
-    "id": "produto-mw8jtyoy",
-    "name": "Suporte de mesa para controle remoto 03 abas",
+    "id": "produto-mw974su0",
+    "name": "Suporte para Fone HeadSet",
     "category": "Organização",
-    "price": 35,
-    "description": "organize seus controles com esse suporte ergométrico para 03 controles",
-    "badge": "",
-    "material": "",
-    "dimensions": "7 x 11",
-    "colors": [
-      "preto"
-    ],
-    "careInstructions": "",
-    "tags": [],
-    "image": "assets/products/produto-mw8jtyoy-mh3uyg-8e7018e203009670ed179e81.jpg",
-    "images": [
-      "assets/products/produto-mw8jtyoy-mh3uyg-8e7018e203009670ed179e81.jpg"
-    ],
-    "videoUrl": "",
-    "active": true,
-    "availability": {
-      "status": "in-stock",
-      "leadTimeMinDays": 3,
-      "leadTimeMaxDays": 5
-    }
-  },
-  {
-    "id": "produto-mw8jo20a",
-    "name": "suporte de mesa para controle com duas abas",
-    "category": "Organização",
-    "price": 31,
-    "description": "organize seus controles remotos com essa suporte de mesa para 2 controles",
-    "badge": "",
-    "material": "",
-    "dimensions": "9 x 8",
-    "colors": [
-      "preto"
-    ],
-    "careInstructions": "",
-    "tags": [],
-    "image": "assets/products/produto-mw8jo20a-7ptxxx-05e032845be04d0572413ba8.jpg",
-    "images": [
-      "assets/products/produto-mw8jo20a-7ptxxx-05e032845be04d0572413ba8.jpg"
-    ],
-    "videoUrl": "",
-    "active": true,
-    "availability": {
-      "status": "in-stock",
-      "leadTimeMinDays": 3,
-      "leadTimeMaxDays": 5
-    }
-  },
-  {
-    "id": "produto-mw8je27c",
-    "name": "Point Finger Telescopico",
-    "category": "Escoler",
-    "price": 29,
-    "description": "Point Finger para dar aula ou para apresentações e até mesmo se divertir",
+    "price": 42,
+    "description": "",
     "badge": "",
     "material": "PLA",
-    "dimensions": "50",
+    "dimensions": "23 x 15",
     "colors": [
-      "preto e vermelho"
+      "Preto"
     ],
     "careInstructions": "",
     "tags": [],
-    "image": "assets/products/produto-mw8je27c-u90ywy-30de807dc95968395540eed4.jpg",
+    "image": "assets/products/produto-mw974su0-14z66md-28ffa60366ad1ab2313312e9.jpg",
     "images": [
-      "assets/products/produto-mw8je27c-u90ywy-30de807dc95968395540eed4.jpg"
-    ],
-    "videoUrl": "",
-    "active": true,
-    "availability": {
-      "status": "check",
-      "leadTimeMinDays": 3,
-      "leadTimeMaxDays": 5
-    }
-  },
-  {
-    "id": "produto-mw8j3rsb",
-    "name": "Lixeira Automotiva",
-    "category": "Organização",
-    "price": 39.9,
-    "description": "Lixeira automotiva para prender na porta do carro",
-    "badge": "",
-    "material": "PLA",
-    "dimensions": "16",
-    "colors": [
-      "Azul e branca ou preta"
-    ],
-    "careInstructions": "",
-    "tags": [],
-    "image": "assets/products/produto-mw8j3rsb-1ai4yf-2fd89e5ab85ec45e8f9a14d3.jpg",
-    "images": [
-      "assets/products/produto-mw8j3rsb-1ai4yf-2fd89e5ab85ec45e8f9a14d3.jpg"
-    ],
-    "videoUrl": "",
-    "active": true,
-    "availability": {
-      "status": "check",
-      "leadTimeMinDays": 3,
-      "leadTimeMaxDays": 5
-    }
-  },
-  {
-    "id": "produto-mw8itqc5",
-    "name": "Dino Bebe",
-    "category": "Articulado Colorido",
-    "price": 20,
-    "description": "Dino Bebe Articulado divertido e fofo",
-    "badge": "",
-    "material": "PLA",
-    "dimensions": "10",
-    "colors": [
-      "Verde",
-      "Azul",
-      "preto",
-      "branco"
-    ],
-    "careInstructions": "",
-    "tags": [],
-    "image": "assets/products/produto-mw8itqc5-1cnkbxx-6d1b877383e5440ecbe62cf2.jpg",
-    "images": [
-      "assets/products/produto-mw8itqc5-1cnkbxx-6d1b877383e5440ecbe62cf2.jpg"
+      "assets/products/produto-mw974su0-14z66md-28ffa60366ad1ab2313312e9.jpg"
     ],
     "videoUrl": "",
     "active": true,
@@ -382,9 +215,9 @@
   },
   {
     "id": "produto-mw8eiri3",
-    "name": "Tartaruga Articulada Colorida",
+    "name": "Tartaruga articulada colorida",
     "category": "Articulado Colorido",
-    "price": 12,
+    "price": 15,
     "description": "Tartaruga articulada colorida",
     "badge": "",
     "material": "PLA",
@@ -909,6 +742,199 @@
     "active": true,
     "availability": {
       "status": "in-stock",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8liehq",
+    "name": "Papai Noel",
+    "category": "Natalino",
+    "price": 15,
+    "description": "Papai Noel Solo",
+    "badge": "",
+    "material": "",
+    "dimensions": "5 x 3",
+    "colors": [
+      "Vermelho",
+      "branco",
+      "preto",
+      "amarelo"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8liehq-hawps0-3e9b54ce443d757b053a98d2.jpg",
+    "images": [
+      "assets/products/produto-mw8liehq-hawps0-3e9b54ce443d757b053a98d2.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8kkngi",
+    "name": "Goku Criança",
+    "category": "Colecionáveis",
+    "price": 38,
+    "description": "Goku Criança para fãs",
+    "badge": "",
+    "material": "",
+    "dimensions": "11 x 7",
+    "colors": [
+      "Vermelho",
+      "azul",
+      "bege",
+      "preto"
+    ],
+    "careInstructions": "",
+    "tags": [
+      "dragon ball"
+    ],
+    "image": "assets/products/produto-mw8kkngi-rvevvp-0f9f5f6a5c3b647e0c9e5bd9.jpg",
+    "images": [
+      "assets/products/produto-mw8kkngi-rvevvp-0f9f5f6a5c3b647e0c9e5bd9.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8jtyoy",
+    "name": "Suporte de mesa para controle remoto 03 abas",
+    "category": "Organização",
+    "price": 35,
+    "description": "organize seus controles com esse suporte ergométrico para 03 controles",
+    "badge": "",
+    "material": "",
+    "dimensions": "7 x 11",
+    "colors": [
+      "preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8jtyoy-mh3uyg-8e7018e203009670ed179e81.jpg",
+    "images": [
+      "assets/products/produto-mw8jtyoy-mh3uyg-8e7018e203009670ed179e81.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "in-stock",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8jo20a",
+    "name": "suporte de mesa para controle com duas abas",
+    "category": "Organização",
+    "price": 31,
+    "description": "organize seus controles remotos com essa suporte de mesa para 2 controles",
+    "badge": "",
+    "material": "",
+    "dimensions": "9 x 8",
+    "colors": [
+      "preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8jo20a-7ptxxx-05e032845be04d0572413ba8.jpg",
+    "images": [
+      "assets/products/produto-mw8jo20a-7ptxxx-05e032845be04d0572413ba8.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "in-stock",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8je27c",
+    "name": "Point Finger Telescopico",
+    "category": "Escoler",
+    "price": 29,
+    "description": "Point Finger para dar aula ou para apresentações e até mesmo se divertir",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "50",
+    "colors": [
+      "preto e vermelho"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8je27c-u90ywy-30de807dc95968395540eed4.jpg",
+    "images": [
+      "assets/products/produto-mw8je27c-u90ywy-30de807dc95968395540eed4.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8j3rsb",
+    "name": "Lixeira Automotiva",
+    "category": "Organização",
+    "price": 39.9,
+    "description": "Lixeira automotiva para prender na porta do carro",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "16",
+    "colors": [
+      "Azul e branca ou preta"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8j3rsb-1ai4yf-2fd89e5ab85ec45e8f9a14d3.jpg",
+    "images": [
+      "assets/products/produto-mw8j3rsb-1ai4yf-2fd89e5ab85ec45e8f9a14d3.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mw8itqc5",
+    "name": "Dino Bebe",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "Dino Bebe Articulado divertido e fofo",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "10",
+    "colors": [
+      "Verde",
+      "Azul",
+      "preto",
+      "branco"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mw8itqc5-1cnkbxx-6d1b877383e5440ecbe62cf2.jpg",
+    "images": [
+      "assets/products/produto-mw8itqc5-1cnkbxx-6d1b877383e5440ecbe62cf2.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
