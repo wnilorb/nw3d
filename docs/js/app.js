@@ -194,9 +194,10 @@
       if (!response.ok) throw new Error('Não foi possível carregar os produtos.');
       const data = await response.json();
       state.products = Array.isArray(data) ? data : data.products || [];
+      const publishedProducts = state.products;
       try {
         const draft = JSON.parse(localStorage.getItem('nilo3d-admin-draft-v1') || 'null');
-        if (Array.isArray(draft) && draft.every(product => product && product.id && product.name)) state.products = draft;
+        if (Array.isArray(draft) && draft.every(product => product && product.id && product.name)) state.products = window.NicWillInventory.mergePublishedProducts(draft, publishedProducts);
         const preview = JSON.parse(localStorage.getItem('nilo3d-availability-preview-v1') || '{}');
         if (preview && typeof preview === 'object' && !Array.isArray(preview)) {
           state.products = state.products.map(product => preview[product.id] ? { ...product, availability: preview[product.id] } : product);
@@ -209,6 +210,12 @@
           if (Array.isArray(categories)) state.categories = window.NicWillInventory?.normalizeCategories(categories) || categories;
         }
       } catch (error) { /* Categorias dos próprios produtos continuam como fallback. */ }
+      const requestedCategory = new URLSearchParams(window.location.search).get('categoria');
+      if (requestedCategory) {
+        const requestedKey = window.NicWillInventory?.categoryKey(requestedCategory) || requestedCategory.toLocaleLowerCase('pt-BR');
+        const matchingCategory = state.categories.find(category => (window.NicWillInventory?.categoryKey(category) || category.toLocaleLowerCase('pt-BR')) === requestedKey);
+        if (matchingCategory) state.category = matchingCategory;
+      }
       renderCategories(); renderProducts(); renderCart();
     } catch (error) {
       $('#results-count').textContent = 'Catálogo indisponível';

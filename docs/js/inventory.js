@@ -41,6 +41,17 @@
     return ordered;
   }
 
+  function mergePublishedProducts(draft, published) {
+    const merged = Array.isArray(draft) ? [...draft] : [];
+    const ids = new Set(merged.map(product => product?.id).filter(Boolean));
+    for (const product of Array.isArray(published) ? published : []) {
+      if (!product?.id || ids.has(product.id)) continue;
+      ids.add(product.id);
+      merged.push(product);
+    }
+    return merged;
+  }
+
   function parseBRLCents(value) {
     const raw = String(value ?? '').trim().replace(/^R\$\s*/i, '').replace(/\s/g, '');
     if (!raw || raw.startsWith('-')) return null;
@@ -305,5 +316,5 @@
     return 'Consulte a disponibilidade pelo WhatsApp';
   }
 
-  return { categoryKey, normalizeCategories, orderedActiveCategories, parseBRLCents, formatBRLInput, youtubeVideoId, youtubeEmbedUrl, parseCart, hasStockHistory, validateBook, summarize, record, validatePartnerLedger, partnerSummary, recordPartnerReceipt, availability, describe };
+  return { categoryKey, normalizeCategories, orderedActiveCategories, mergePublishedProducts, parseBRLCents, formatBRLInput, youtubeVideoId, youtubeEmbedUrl, parseCart, hasStockHistory, validateBook, summarize, record, validatePartnerLedger, partnerSummary, recordPartnerReceipt, availability, describe };
 });
