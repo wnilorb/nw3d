@@ -77,6 +77,10 @@ Limpar os dados do navegador pode apagar o livro local; mantenha cópias de back
 
  O cliente adiciona um ou mais itens, confere o resumo com miniaturas, informa nome, WhatsApp, cidade e observações, e envia a mensagem pré-preenchida pelo WhatsApp. Preço exibido é subtotal estimado; disponibilidade, personalização, entrega e pagamento são confirmados diretamente no atendimento. Não há pagamento ou checkout financeiro no site.
 
+### Campanha e compras para revenda
+
+Os preços atuais do catálogo são promocionais em celebração ao lançamento do NicWill Lab 3D e à Black Friday; poderão ser atualizados futuramente. Para compras no atacado destinadas à revenda, a partir de 10 unidades do mesmo produto, aplica-se 35% de desconto sobre o preço unitário anunciado no catálogo. Disponibilidade, prazo e detalhes do pedido são confirmados pelo WhatsApp.
+
 ## Arquivos principais
 
 - `docs/index.html` — catálogo público (fonte do GitHub Pages).
@@ -90,4 +94,4 @@ Limpar os dados do navegador pode apagar o livro local; mantenha cópias de back
 - `docs/js/config.js` — nome e WhatsApp do ateliê.
 - `docs/css/` e `docs/assets/` — identidade visual e ilustrações públicas.
 
-O catálogo vem com produtos e imagens ilustrativas de exemplo. Substitua nomes, valores, fotos, descrições e categorias antes de divulgar.
+O catálogo contém produtos e imagens cadastrados pelo proprietário. Revise nomes, valores, disponibilidade, descrições, fotos e especificações antes de divulgar; informe apenas características confirmadas.
