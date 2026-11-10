@@ -14,14 +14,14 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/catalog.css">
   <link rel="stylesheet" href="css/inventory.css">
-  <link rel="stylesheet" href="css/brand.css?v=20261108.1">
+  <link rel="stylesheet" href="css/brand.css?v=20261109.1">
 </head>
 <body>
   <div class="announcement"><span>NICWILL LAB 3D <i aria-hidden="true">✳</i></span><span>IMPRESSÃO 3D · DESIGN SEM LIMITES · CADA CAMADA CONTA</span></div>
   <header class="site-header">
     <a class="brand brand-image" href="#inicio" aria-label="NicWill Lab 3D — página inicial"><img class="brand-logo" src="assets/logo.jpg" alt="NicWill Lab 3D" width="580" height="326"></a>
     <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
-    <nav class="main-nav" id="main-nav" aria-label="Navegação principal"><a href="#catalogo">Catálogo</a><a href="#sob-medida">Projetos personalizados</a><a href="#sobre">O ateliê</a></nav>
+    <nav class="main-nav" id="main-nav" aria-label="Navegação principal"><a href="#catalogo">Catálogo</a><a href="#atacado">Atacado</a><a href="#sob-medida">Projetos personalizados</a><a href="#sobre">O ateliê</a></nav>
     <button class="cart-trigger" id="open-cart" aria-label="Abrir sacola"><span class="bag-icon">▱</span><span>Sacola</span><span class="cart-count" id="cart-count">0</span></button>
   </header>
 
@@ -42,6 +42,12 @@
       </div>
     </section>
 
+    <section class="campaign-banner" aria-labelledby="campaign-title">
+      <div class="campaign-art" aria-hidden="true"><span>BF</span><small>BLACK<br>FRIDAY</small><i>3D</i></div>
+      <div class="campaign-copy"><p class="eyebrow">CONDIÇÃO ESPECIAL · LANÇAMENTO + BLACK FRIDAY</p><h2 id="campaign-title">Preços especiais de <em>lançamento.</em></h2><p>Os preços atuais do catálogo são promocionais, em celebração ao lançamento do NicWill Lab 3D e à Black Friday. Aproveite a condição vigente; os valores poderão ser atualizados futuramente.</p></div>
+      <a class="campaign-cta" href="#catalogo">VER PREÇOS PROMOCIONAIS <span aria-hidden="true">↓</span></a>
+    </section>
+
     <section class="trust-row" aria-label="Diferenciais"><span><b>01</b> DESIGN QUE SURPREENDE</span><span><b>02</b> FEITO NO NOSSO LAB</span><span><b>03</b> SUA IDEIA TAMBÉM VIRA 3D</span></section>
 
     <section class="catalog-section section-wrap" id="catalogo">
@@ -56,6 +62,12 @@
       <div class="results-meta"><span id="results-count">Carregando peças...</span><label>Ordenar <select id="sort-select"><option value="featured">Em destaque</option><option value="price-asc">Menor preço</option><option value="price-desc">Maior preço</option><option value="name">Nome A–Z</option></select></label></div>
       <div class="product-grid" id="product-grid" aria-live="polite"></div>
       <div class="empty-state" id="empty-state" hidden><span>⌕</span><h3>Nenhuma peça encontrada</h3><p>Tente buscar por outro nome ou escolha uma categoria diferente.</p><button class="text-button" id="clear-filters">Limpar filtros</button></div>
+    </section>
+
+    <section class="wholesale-banner" id="atacado" aria-labelledby="wholesale-title">
+      <div class="wholesale-art" aria-label="35 por cento de desconto no atacado"><span>35</span><small>% OFF</small><i>ATACADO</i></div>
+      <div class="wholesale-copy"><p class="eyebrow">OPORTUNIDADE PARA REVENDA</p><h2 id="wholesale-title">Leve nossas peças <em>para sua loja.</em></h2><p>A partir de <strong>10 unidades do mesmo produto</strong>, você recebe <strong>35% de desconto</strong> sobre o preço unitário anunciado no catálogo. Uma condição especial para comprar no atacado e revender.</p><p class="wholesale-note">Consulte disponibilidade, prazo e detalhes do pedido diretamente com a gente.</p></div>
+      <a class="wholesale-cta" id="wholesale-whatsapp" href="#atacado">CONSULTAR ATACADO <span aria-hidden="true">↗</span></a>
     </section>
 
     <section class="custom-banner" id="sob-medida"><div class="custom-symbol">✳</div><div><p class="eyebrow">SUA IMAGINAÇÃO É O LIMITE</p><h2>Sonhou. <em>A gente imprime.</em></h2><p>Uma peça exclusiva, outro tamanho, sua marca ou uma ideia que ainda não existe? Vamos criar juntos.</p></div><a class="button button-light" id="custom-whatsapp" href="#">Criar meu projeto <span>↗</span></a></section>
@@ -95,6 +107,6 @@
   </dialog>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="js/config.js"></script><script src="js/inventory.js?v=20261108.1"></script><script src="js/app.js?v=20261108.1"></script>
+  <script src="js/config.js"></script><script src="js/inventory.js?v=20261108.1"></script><script src="js/app.js?v=20261109.1"></script>
 </body>
 </html>

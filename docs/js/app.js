@@ -189,6 +189,9 @@
     $('#custom-whatsapp').href = `https://wa.me/${String(CONFIG.whatsapp || '').replace(/\D/g, '')}?text=${encodeURIComponent(`${CONFIG.greeting || 'Olá!'} Tenho uma ideia para um projeto personalizado.`)}`;
     $('#custom-whatsapp').target = '_blank';
     $('#custom-whatsapp').rel = 'noopener noreferrer';
+    $('#wholesale-whatsapp').href = `https://wa.me/${String(CONFIG.whatsapp || '').replace(/\D/g, '')}?text=${encodeURIComponent(`${CONFIG.greeting || 'Olá!'} Tenho interesse em comprar no atacado para revenda. Gostaria de consultar a disponibilidade e as condições para adquirir 10 ou mais unidades do mesmo produto com 35% de desconto.`)}`;
+    $('#wholesale-whatsapp').target = '_blank';
+    $('#wholesale-whatsapp').rel = 'noopener noreferrer';
     try {
       const response = await fetch('data/products.json', { cache: 'no-cache' });
       if (!response.ok) throw new Error('Não foi possível carregar os produtos.');
