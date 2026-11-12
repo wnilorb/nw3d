@@ -1,5 +1,220 @@
 [
   {
+    "id": "produto-mwczjj53",
+    "name": "Tigrinho manhoso",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "",
+    "colors": [
+      "branco",
+      "preto e azul"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwczjj53-15cn2p0-746a66962487d8d006f05578.jpg",
+    "images": [
+      "assets/products/produto-mwczjj53-15cn2p0-746a66962487d8d006f05578.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwczicav",
+    "name": "Jesus mini coração bondoso",
+    "category": "Decoração",
+    "price": 15,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "",
+    "colors": [
+      "branco",
+      "marrom",
+      "vermelho e bege"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwczicav-mtqoj-a687b635e7be1c050763c23f.jpg",
+    "images": [
+      "assets/products/produto-mwczicav-mtqoj-a687b635e7be1c050763c23f.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwczh2pc",
+    "name": "Husk",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "",
+    "colors": [
+      "preto",
+      "branco e azul"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwczh2pc-12sdwnz-63854132cfe8f334c3dd2235.jpg",
+    "images": [
+      "assets/products/produto-mwczh2pc-12sdwnz-63854132cfe8f334c3dd2235.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwczg5w4",
+    "name": "Girafa baby articulado",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "",
+    "colors": [
+      "amarelo",
+      "marrom",
+      "branco e preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwczg5w4-8i32lz-6a818c055285f282e1b7320f.jpg",
+    "images": [
+      "assets/products/produto-mwczg5w4-8i32lz-6a818c055285f282e1b7320f.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwczewrp",
+    "name": "Gato articulado",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "",
+    "colors": [
+      "preto e branco"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwczewrp-1720yha-d014001d2726b623bfbede34.jpg",
+    "images": [
+      "assets/products/produto-mwczewrp-1720yha-d014001d2726b623bfbede34.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwczd3tf",
+    "name": "Dragão da Floresta",
+    "category": "Articulado Colorido",
+    "price": 20,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "12 x 12",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwczd3tf-15luyhv-5f2c63a29621d22426a8ca96.jpg",
+    "images": [
+      "assets/products/produto-mwczd3tf-15luyhv-5f2c63a29621d22426a8ca96.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwczb6oj",
+    "name": "Dragão Articulado Feroz",
+    "category": "Articulado Colorido",
+    "price": 35,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "17 x 18",
+    "colors": [
+      "vermelho e preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwczb6oj-29wkih-ac1fc218b061d8c9578d36a5.jpg",
+    "images": [
+      "assets/products/produto-mwczb6oj-29wkih-ac1fc218b061d8c9578d36a5.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwcz8hy8",
+    "name": "Dino Carnivoro mini",
+    "category": "Articulado Colorido",
+    "price": 18,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "8 x 6",
+    "colors": [
+      "Vermelho",
+      "amarelo",
+      "preto",
+      "branco"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwcz8hy8-15kfju5-59300e643d18b94fde2ef3e1.jpg",
+    "images": [
+      "assets/products/produto-mwcz8hy8-15kfju5-59300e643d18b94fde2ef3e1.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
     "id": "produto-mw974su0",
     "name": "Suporte para Fone HeadSet",
     "category": "Organização",
@@ -621,7 +836,7 @@
     "videoUrl": "",
     "active": true,
     "availability": {
-      "status": "check",
+      "status": "in-stock",
       "leadTimeMinDays": 3,
       "leadTimeMaxDays": 5
     }
