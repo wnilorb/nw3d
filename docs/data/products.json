@@ -1,19 +1,21 @@
 [
   {
-    "id": "produto-mwifiu2j",
-    "name": "Vegeta Ego Superior",
-    "category": "Colecionáveis",
-    "price": 125,
-    "description": "",
+    "id": "produto-mwvefwoa",
+    "name": "Jesus porta terço",
+    "category": "Decoração",
+    "price": 25,
+    "description": "Lindo porta terço de Jesus",
     "badge": "",
     "material": "PLA",
-    "dimensions": "30 x 20 cm",
-    "colors": [],
+    "dimensions": "15 x 15cm",
+    "colors": [
+      "Branco"
+    ],
     "careInstructions": "",
     "tags": [],
-    "image": "assets/products/produto-mwifiu2j-1rmhzgo-7a523eb6a2867aab283a09fa.jpg",
+    "image": "assets/products/produto-mwvefwoa-c4t5cj-8284b0d517c1b1624ea7cf8a.jpg",
     "images": [
-      "assets/products/produto-mwifiu2j-1rmhzgo-7a523eb6a2867aab283a09fa.jpg"
+      "assets/products/produto-mwvefwoa-c4t5cj-8284b0d517c1b1624ea7cf8a.jpg"
     ],
     "videoUrl": "",
     "active": true,
@@ -24,23 +26,22 @@
     }
   },
   {
-    "id": "produto-mwifde4p",
-    "name": "Red Hulk",
-    "category": "Colecionáveis",
-    "price": 85,
+    "id": "produto-mwve1nba",
+    "name": "Maria porta terço",
+    "category": "Decoração",
+    "price": 25,
     "description": "",
     "badge": "",
     "material": "PLA",
-    "dimensions": "18 x 10 cm",
+    "dimensions": "17 x 10cm",
     "colors": [
-      "vermelho",
-      "preto"
+      "Branco"
     ],
     "careInstructions": "",
     "tags": [],
-    "image": "assets/products/produto-mwifde4p-xpl6sx-9491cc8d98c22b3220b2ed66.jpg",
+    "image": "assets/products/produto-mwve1nba-ur5la2-5e794cc4e2c62436a959667f.jpg",
     "images": [
-      "assets/products/produto-mwifde4p-xpl6sx-9491cc8d98c22b3220b2ed66.jpg"
+      "assets/products/produto-mwve1nba-ur5la2-5e794cc4e2c62436a959667f.jpg"
     ],
     "videoUrl": "",
     "active": true,
@@ -51,24 +52,24 @@
     }
   },
   {
-    "id": "produto-mwif4qep",
-    "name": "Goku Instinto Superior",
-    "category": "Colecionáveis",
-    "price": 98,
-    "description": "Goku com presença imponente Instinto Superior\n20cm de altura",
+    "id": "produto-mwvdz0cu",
+    "name": "Kit decoração Maria",
+    "category": "Decoração",
+    "price": 65,
+    "description": "Kit decoração \nMaria + Bandeja + Porta Vela led\nnão acompanha a vela",
     "badge": "",
     "material": "PLA",
-    "dimensions": "20 x 9 cm",
+    "dimensions": "10 x 17cm",
     "colors": [
-      "Azul",
       "branco",
-      "vermelho e bege"
+      "azul",
+      "amarelo"
     ],
     "careInstructions": "",
     "tags": [],
-    "image": "assets/products/produto-mwif4qep-db1spg-998d7781b8eb390fa768e162.jpg",
+    "image": "assets/products/produto-mwvdz0cu-1n4yqk9-4f72526ef9657080d1e8de8e.jpg",
     "images": [
-      "assets/products/produto-mwif4qep-db1spg-998d7781b8eb390fa768e162.jpg"
+      "assets/products/produto-mwvdz0cu-1n4yqk9-4f72526ef9657080d1e8de8e.jpg"
     ],
     "videoUrl": "",
     "active": true,
@@ -82,7 +83,7 @@
     "id": "produto-mwcz8hy8",
     "name": "Dino Carnivoro mini",
     "category": "Articulado Colorido",
-    "price": 20,
+    "price": 18,
     "description": "",
     "badge": "",
     "material": "PLA",
@@ -887,7 +888,7 @@
     "id": "produto-mw8kkngi",
     "name": "Goku Criança",
     "category": "Colecionáveis",
-    "price": 45,
+    "price": 38,
     "description": "Goku Criança para fãs",
     "badge": "",
     "material": "",
@@ -1078,11 +1079,11 @@
     "id": "produto-mwczicav",
     "name": "Jesus mini coração bondoso",
     "category": "Decoração",
-    "price": 15,
+    "price": 18,
     "description": "",
     "badge": "",
     "material": "PLA",
-    "dimensions": "",
+    "dimensions": "8 x 5 cm",
     "colors": [
       "branco",
       "marrom",
@@ -1224,6 +1225,85 @@
     "image": "assets/products/produto-mwczb6oj-29wkih-ac1fc218b061d8c9578d36a5.jpg",
     "images": [
       "assets/products/produto-mwczb6oj-29wkih-ac1fc218b061d8c9578d36a5.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwifiu2j",
+    "name": "Vegeta Ego Superior",
+    "category": "Colecionáveis",
+    "price": 125,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "30 x 20 cm",
+    "colors": [],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwifiu2j-1rmhzgo-7a523eb6a2867aab283a09fa.jpg",
+    "images": [
+      "assets/products/produto-mwifiu2j-1rmhzgo-7a523eb6a2867aab283a09fa.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwifde4p",
+    "name": "Red Hulk",
+    "category": "Colecionáveis",
+    "price": 85,
+    "description": "",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "18 x 10 cm",
+    "colors": [
+      "vermelho",
+      "preto"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwifde4p-xpl6sx-9491cc8d98c22b3220b2ed66.jpg",
+    "images": [
+      "assets/products/produto-mwifde4p-xpl6sx-9491cc8d98c22b3220b2ed66.jpg"
+    ],
+    "videoUrl": "",
+    "active": true,
+    "availability": {
+      "status": "check",
+      "leadTimeMinDays": 3,
+      "leadTimeMaxDays": 5
+    }
+  },
+  {
+    "id": "produto-mwif4qep",
+    "name": "Goku Instinto Superior",
+    "category": "Colecionáveis",
+    "price": 98,
+    "description": "Goku com presença imponente Instinto Superior\n20cm de altura",
+    "badge": "",
+    "material": "PLA",
+    "dimensions": "20 x 9 cm",
+    "colors": [
+      "Azul",
+      "branco",
+      "vermelho e bege"
+    ],
+    "careInstructions": "",
+    "tags": [],
+    "image": "assets/products/produto-mwif4qep-db1spg-998d7781b8eb390fa768e162.jpg",
+    "images": [
+      "assets/products/produto-mwif4qep-db1spg-998d7781b8eb390fa768e162.jpg"
     ],
     "videoUrl": "",
     "active": true,
